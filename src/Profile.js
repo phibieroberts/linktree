@@ -17,7 +17,7 @@ function Profile() {
       <section id="profile">
         <img src={phoebe} alt="phoebe" id="profile__img" />
         <p id="twitter">Phoebe__Roberts__</p>
-        <p id="slack">Zoe</p>
+        <p id="slack">Phoebe__roberts</p>
       </section>
 
       <section id="links_section">
