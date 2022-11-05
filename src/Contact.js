@@ -37,7 +37,7 @@ function Contact() {
             Message
             <textarea
               name="message"
-              placeholder='  Send me a message and I"ll reply you as soon as possible...'
+              placeholder=' Send me a message and I"ll reply you as soon as possible...'
               rows={5}
               cols={20}
               id="message"
@@ -45,11 +45,12 @@ function Contact() {
           </label>
 
           <label htmlFor="checkbox">
-            <input type="checkbox" /> You agree to providing your data to who
+            <input type="checkbox" /> You agree to providing your data to (name) who
             may contact you.
           </label>
+          <button id="button__submit">Send Message</button>
+
         </form>
-        <button id="button__submit">Send Message</button>
 
       </div>
 
