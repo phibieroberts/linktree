@@ -3,9 +3,9 @@ import phoebe from "./phoebe.jpeg";
 import icon from "./Icon.svg";
 import slack from "./slack.svg";
 import github from "./github.svg";
-import Hng from "./Vector.svg";
-import I4g from "./I4G.svg";
 import "./profile.css";
+import {Link} from "react-router-dom"
+import Footer from "./Footer";
 
 function Profile() {
   return (
@@ -64,17 +64,17 @@ function Profile() {
           <span id="subtext">Here are some amazing design books for you</span>
           Design Books
         </a>
+        <Link to={"/contact"}>
+        <a href="https://training.zuri.team/" id="contact" class="link">Contact
+          <span id="subtext">Contact me</span>
+        </a>
+        </Link>
       </section>
       <div id="socials">
         <img src={slack} alt="" />
         <img src={github} alt="" />
       </div>
-
-      <div id="footer">
-        <img src={Hng} alt="" />
-        <h3>HNG Internship 9 Frontend Task</h3>
-        <img src={I4g} alt="" />
-      </div>
+<Footer />
     </div>
   );
 }
