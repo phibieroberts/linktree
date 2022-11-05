@@ -15,6 +15,12 @@
 .contact-form{
     width: 50%;
 }
+p{
+    line-height: 28px;
+}
+h1{
+    margin-bottom: 10px;
+}
 .names{
     display: grid;
     grid-template-columns: 1fr 1fr;
